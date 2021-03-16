@@ -1,0 +1,106 @@
+@media (max-width: 1199.98px){
+    .tab-content{
+        padding-right: 20px;
+    }
+    .tab-content ul{
+        padding-left: 10px;
+    }
+    .map{
+        height: 500px;
+    }
+}
+@media (max-width: 991.98px){
+    header{
+        padding: 150px 0;
+    }
+    .main .col-xl-5,
+    .event .col-xl-5,
+    .gallery .col-xl-5{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .video .col-xl-5{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contact form{
+        max-width: 60%;
+        flex-direction: column;
+        min-height: 350px;
+        padding: 30px 0;
+    }
+    .sponsors img{
+        margin: 20px;
+    }
+    .sponsors .row{
+        justify-content: center !important;
+    }
+    .map{
+        height: 400px;
+    }
+}
+@media (max-width: 767.98px){
+    header{
+        padding: 100px 0;
+    }
+    section{
+        padding-top: 50px;
+    }
+    .speakers,
+    .gallery,
+    .contact{
+        padding-bottom: 50px;
+    }
+    .map{
+        height: 300px;
+    }
+}
+@media (max-width: 575.98px){
+    .logo{
+        width: 95%;
+        margin: 0;
+    }
+    h1{
+        font-size: 21px;
+    }
+    .register{
+        margin: 10px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 19px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .tab-pane.active{
+        justify-content: center;
+        text-align: center;
+    }
+    .tab-img{
+        margin-top: 15px;
+    }
+    .event .nav-tabs .nav-item{
+        width: 33.33%;
+    }
+    .btn-link span{
+        margin: 0;
+        padding: 1px;
+        font-size: 14px;
+    }
+    .event .tab-content{
+        padding: 15px 10px;
+    }
+    .btn-link{
+        font-size: 16px;
+    }
+    .video iframe,
+    .carousel img{
+        height: 250px;
+    }
+    .contact form{
+        max-width: 90%;
+    }
+}
